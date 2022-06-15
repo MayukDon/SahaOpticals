@@ -1,0 +1,104 @@
+/* css reset */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* navbar logo */
+.logo{
+    margin: 10px;
+    padding: 1rem;
+    color: rgb(0, 115, 255);
+    background-color: white;
+    /* line-height: 5rem; */
+    font-size: 20px;
+    text-decoration: solid;
+    font-weight: bolder;
+    user-select: none ;
+    display: inline-block;
+    /* box-shadow: outset 10px rgba(197, 195, 195, 0.775) ; */
+}
+
+/* navbar lists */
+#navbar{
+    /* display: flex; */
+    align-content: space-around;
+    background-color: rgb(230, 206, 255);
+    
+    /* padding: 10px; */
+}
+#navbar ul{
+
+    /* display: flex; */
+    /* display: flex; */
+    /* margin-left: 4rem; */
+    float: right;
+}
+#navbar ul li{
+    /* px; */
+    list-style: none;
+    display: inline;
+    margin: 20px 40px;
+    float: right;
+}
+#navbar ul li a{
+    padding: 15px;
+    /* padding-top: 30px; */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(0, 115, 255);
+    transition: all 0.7s;
+}
+#navbar ul li a:hover, :active{
+    color: rgba(0, 96, 214, 0.297);
+    /* background-color: rgba(216, 180, 255, 0.779); */
+}
+
+@media (max-width: 1181px){
+    #navbar ul li{
+        margin: 4px;
+    }
+    #navbar ul li a{
+        padding: 3px;
+        font-size: 10px;
+    }
+     #navbar{
+        height: 2em;
+    } 
+    .logo{
+        padding: 2px;
+        margin: 2px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 435px){
+    .logo{
+        font-size: 10px;
+        /* justify-content: center; */
+        text-align: center/center;
+        margin: auto;
+        }
+    #navbar ul li {
+        padding: 1px;
+    }
+}
+@media (max-width: 345px){
+    #navbar{
+        height: 1.6em;
+    }
+    .logo{
+        font-size: 10px;
+        /* line-height: 1em; */
+        height: 2.5em;
+        padding-top: 8px;
+    }
+    #navbar ul li a{
+        padding: 1px;
+        padding-top: 1px;
+        font-size: 9px;
+    }
+}
