@@ -78,6 +78,7 @@
 @media (max-width: 435px){
     .logo{
         font-size: 10px;
+        height: 15px;
         /* justify-content: center; */
         text-align: center/center;
         margin: auto;
