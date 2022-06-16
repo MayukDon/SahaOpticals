@@ -77,14 +77,19 @@
 }
 @media (max-width: 435px){
     .logo{
-        font-size: 10px;
-        height: 15px;
+        font-size: 15px;
+        height: 26px;
         /* justify-content: center; */
-        text-align: center/center;
+        text-align: center;
         margin: auto;
         }
     #navbar ul li {
         padding: 1px;
+    }
+}
+@media (max-width: 377px){
+    .logo{
+        font-size: 11px;
     }
 }
 @media (max-width: 345px){
