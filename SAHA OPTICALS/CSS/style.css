@@ -26,6 +26,10 @@
     /* display: flex; */
     align-content: space-around;
     background-color: rgb(230, 206, 255);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     
     /* padding: 10px; */
 }
