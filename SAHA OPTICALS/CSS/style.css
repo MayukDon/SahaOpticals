@@ -4,9 +4,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-}
-body{
-    height: 3000px;
+    /* overflow: hidden; */
 }
 
 /* navbar logo */
@@ -31,8 +29,8 @@ body{
     background-color: rgb(230, 206, 255);
     position: sticky;
     top: 0px;
-    left: 0px;
     right: 0px;
+    /* width: 100vw; */
     
     /* padding: 10px; */
 }
@@ -65,6 +63,38 @@ body{
     /* background-color: rgba(216, 180, 255, 0.779); */
 }
 
+
+/* .map{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+} */
+
+  /* home styling */
+    
+.home{
+    display: inline;
+}
+.items{
+    border:  2px solid red;
+    /* display: inline; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.sp1 img{
+    width: 25rem;
+}
+.explain{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    font-family: fantasy;
+    font-size: 2rem;
+}
 @media (max-width: 1181px){
     #navbar ul li{
         margin: 4px;
@@ -80,6 +110,14 @@ body{
         padding: 3px;
         margin: 2px;
         font-size: 20px;
+    }
+}
+@media (max-width: 886px){
+    .sp1 img{
+        width: 3rem;
+    }
+    .explain{
+        font-size: 0.5rem;
     }
 }
 @media (max-width: 435px){
