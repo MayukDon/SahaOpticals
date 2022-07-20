@@ -114,10 +114,10 @@
 }
 @media (max-width: 886px){
     .sp1 img{
-        width: 5rem;
+        width: 10rem;
     }
     .explain{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 @media (max-width: 435px){
