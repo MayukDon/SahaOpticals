@@ -119,6 +119,9 @@
     .explain{
         font-size: 1.5rem;
     }
+    .items{
+        flex-direction: column;
+    }
 }
 @media (max-width: 435px){
     .logo{
